@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SmartCalendarView">
+        <attr name="drawerController" format="string" />
+        <attr name="selectedController" format="string" />
+        <attr name="showController" format="string" />
+        <attr name="weekDayController" format="string" />
+        <attr name="orientation" format="enum">
+            <enum name="HORIZONTAL" value="0" />
+            <enum name="VERTICAL" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

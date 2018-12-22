@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.seeker.calendar.SmartCalendarView
+        android:id="@+id/smartCalendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:orientation="HORIZONTAL"/>
+
+    <Button
+        android:id="@+id/addEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="添加事件"/>
+
+    <Button
+        android:id="@+id/getEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="获取事件"/>
+
+    <Button
+        android:id="@+id/removeEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="移除事件"/>
+
+</LinearLayout>

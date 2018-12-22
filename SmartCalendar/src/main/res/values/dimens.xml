@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_day">13sp</dimen>
+    <dimen name="text_size_month">18sp</dimen>
+    <dimen name="text_size_day_name">10sp</dimen>
+    <dimen name="header_month_height">30dp</dimen>
+    <dimen name="selected_day_radius">16dp</dimen>
+    <dimen name="raw_height">35dp</dimen>
+    <dimen name="event_stroke_width">3.3dp</dimen>
+</resources>
